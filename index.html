@@ -24,18 +24,19 @@
       <h1 class="bg-success text-center text-white p-5">CRUD Operation</h1>
     </header>
     <main>
-      <div class="container-fluid text-center p-5">
-        <input type="text" name="input" id="input" placeholder="Name" />
-        <input
-          type="email"
-          name="inputEmail"
-          id="inputEmail"
-          placeholder="Email"
-        />
-        <input type="date" name="inputDate" id="inputDate" placeholder="DOB" />
-        <button id="addItem">➕Add</button>
+        <div class="search-container text-center p-3 bg-danger">
+            <input type="text" id="searchInput" placeholder="Search by name">
+        </div>
+        <div class="form-container text-center p-5 bg-danger">
+            <input type="text" id="input" placeholder="Enter name">
+            <input type="email" id="inputEmail" placeholder="Enter email">
+            <input type="date" id="inputDate" placeholder="Enter date of birth">
+            <button id="addItem">Add Item</button>
+        </div>
+        
+      
 
-        <ul class="text-center p-3" id="itemList"></ul>
+        <ul class="text-center p-3 bg-body-secondary m-5 p-5" id="itemList"></ul>
       </div>
     </main>
     <footer>
